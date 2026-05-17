@@ -17,7 +17,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/generate",
+        "https://ai-content-gen-backend-2ivg.onrender.com/generate",
         {
           productName,
         }
